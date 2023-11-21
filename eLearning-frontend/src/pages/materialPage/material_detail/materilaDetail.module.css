@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  margin: 0;
+  margin-top: 75px;
+  height: calc(100vh - 75px);
+}
+
+.materilacon {
+  flex: 2.5;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.materila_info {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 3px dashed red;
+  padding: 15px 8px;
+  background-color: #fff;
+}
+
+.materila_info > * {
+  padding: 6px 40px;
+  color: aqua;
+  border: 1px solid orange;
+  border-radius: 60%;
+}
+
+.content {
+  width: 80%;
+  height: 80%;
+  padding: 8px;
+  margin: 1rem auto;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.comment {
+  flex: 1;
+  height: calc(100vh-75px);
+  height: 90vh;
+  overflow-y: scroll;
+}
+
+.input {
+  position: fixed;
+  width: 28.5%;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  right: 2px;
+  display: flex;
+}
+
+.input textarea {
+  width: 85%;
+  height: 50px;
+  margin: 0;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.input button {
+  width: 15%;
+  height: 60px;
+  margin: 0;
+  padding: 5px;
+  cursor: pointer;
+  background-color: rgb(137, 127, 110);
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.input > *:active,
+.input > *:focus {
+  outline: none;
+}

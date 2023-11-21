@@ -1,0 +1,138 @@
+.materials {
+  display: flex;
+  margin-top: 75px;
+  position: relative;
+}
+
+/* filterCon */
+.filtercon {
+  flex: 0.2;
+  background-color: rgb(103, 103, 39);
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.filtercon h3 {
+  align-self: center;
+}
+
+.options {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.materialcon {
+  left: 20%;
+  flex: 0.8;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-y: scroll;
+  height: calc(100vh - 75px);
+}
+
+.search {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.7);
+  padding: 5px 8px;
+  border: 1px solid gray;
+  z-index: 100;
+  width: 40%;
+  position: absolute;
+  right: 20px;
+  border-radius: 30px;
+  margin: 12px;
+}
+
+.searchtext {
+  position: absolute;
+  right: 20px;
+  z-index: 150;
+  padding: 5px 8px;
+  margin: 12px 20px;
+  border-left: 2px solid gray;
+}
+
+/* materialCard */
+.bookcard {
+  width: 400px;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.3);
+  /* padding: 12px; */
+  margin: 8px;
+  cursor: pointer;
+}
+
+.bookcard img {
+  width: 180px;
+  height: 100%;
+  margin: auto 2.5px;
+}
+
+.book_info {
+  position: relative;
+  width: 245px;
+  padding-left: 2rem;
+}
+
+.bookname {
+  color: orangered;
+}
+
+.bookauthor {
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+}
+
+.videocard {
+  width: 400px;
+  height: 250px;
+  margin: 8px;
+  position: relative;
+}
+
+.videocard:hover,
+.bookcard:hover {
+  filter: brightness(0.5);
+}
+
+.videocard img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.videocard .video_info {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.videosubject {
+  margin-left: 5px;
+  font-size: 14px;
+}
+.videoauthor {
+  margin-right: 5px;
+}
+
+.videoname {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  font-size: large;
+  color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

@@ -1,0 +1,93 @@
+.header {
+  width: 100%;
+  height: 60px;
+  padding: 10px 0;
+  margin: 0;
+  background-color: #a544a7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 200;
+}
+
+.header h2 {
+  color: #9a2298;
+  text-shadow: 0 0 2px rgb(212, 99, 99);
+  margin: 0;
+  padding: 0 8px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.header nav {
+  display: flex;
+}
+
+nav .active_nav,
+nav a:hover {
+  color: #f7a5f6;
+  text-decoration: underline;
+}
+
+nav a {
+  color: #fff;
+  margin-right: 8px;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.header button {
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  background-color: rgb(147, 109, 38);
+  height: 40px;
+  padding: 2px 14px;
+  margin-right: 3px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.profile {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 2px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.profile .img {
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+.profile .img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.profile .notif {
+  width: 15px;
+  height: 15px;
+  padding: 2px;
+  line-height: 15px;
+  border-radius: 50%;
+  background-color: #8a3188;
+  box-shadow: 0 0 2px #fff;
+  position: absolute;
+  right: -3px;
+  text-align: center;
+  color: #fff;
+}
+
+.profile .name {
+  font-size: 12px;
+  color: #fff;
+}

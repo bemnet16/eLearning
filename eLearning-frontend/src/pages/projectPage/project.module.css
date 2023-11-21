@@ -1,0 +1,21 @@
+.container {
+  margin-top: 80px;
+  width: 100%;
+}
+
+.project {
+  background-color: rgb(23, 71, 122);
+  text-align: center;
+  padding: 8px 0;
+  margin-bottom: 4px;
+  position: relative;
+}
+
+.participate {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  background-color: orange;
+  padding: 12px 20px;
+  cursor: pointer;
+}

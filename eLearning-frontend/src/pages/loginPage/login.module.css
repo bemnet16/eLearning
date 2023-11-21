@@ -1,0 +1,64 @@
+.container {
+  background-color: rgb(28, 102, 136);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login__container {
+  width: 22%;
+  background-color: rgb(54, 81, 81);
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  font-size: 1.2rem;
+}
+
+form {
+  padding: 5px 20px;
+}
+
+.inp {
+  color: white;
+  text-align: start;
+}
+
+input {
+  background-color: transparent;
+  color: white;
+  padding: 0 5px 5px 5px;
+  width: 100%;
+  font-size: 1.05rem;
+  border: none;
+  border-bottom: 2px solid #fff;
+}
+
+input:focus {
+  outline: none;
+}
+
+form button {
+  width: 100%;
+  margin: 20px auto;
+  background-color: rgb(125, 197, 197);
+  padding: 12px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+p button {
+  background-color: transparent;
+  color: #b7c0c7;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 560px) {
+  .container {
+    width: 80%;
+  }
+}
