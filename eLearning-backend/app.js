@@ -25,7 +25,7 @@ app.use(express.json());
 app.use(express.text());
 app.use(cookieParser());
 
-//I don't know what does below do
+
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader(
